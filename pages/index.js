@@ -9,7 +9,7 @@ display: "flex",
 alignItems:"center",
 justifyContent:"center"
 }}>
-Elisey
+Dima
 </div>
 <div style={{
 width: "50%",
@@ -20,7 +20,7 @@ display: "flex",
 alignItems:"center",
 justifyContent:"center"
 }}>
-Dima
+Elisey
 </div>
   </div>
 }
