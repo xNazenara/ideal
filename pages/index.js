@@ -2,8 +2,6 @@ const HomePage = () => {
   return (
     <div>
       <div className="initial-container">
-        <div className="initial-container-filter" />
-
         <div className="initial-top">
           <div className="initial-title">
             <div className="initial-title-text">
