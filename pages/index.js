@@ -55,7 +55,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div clasName="cubes-container">
+      <div className="cubes-container">
         <div className="cubes-title">
           СПОРТИВНО-ОЗДОРОВИТЕЛЬНЫЙ ЦЕНТР "ИДЕАЛ"
         </div>
@@ -94,6 +94,65 @@ const HomePage = () => {
             <button className="cubes-button"></button>
             <div className="cubes-bottom-block-pink"></div>
           </div>
+        </div>
+      </div>
+      <div className="videos-container">
+        <div className="container-title">Видео</div>
+        <div className="videos-block-container">
+          <div className="videos-block">
+            <div>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/leD8BxVev9s"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="videos-description">
+              Биодинамическая коррекция позвоночника и суставов.
+            </div>
+          </div>
+          <div className="videos-block">
+            <div>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/akoj18-wT44"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div className="videos-description">
+              Постизометрическа релаксация.
+            </div>
+          </div>
+        </div>
+        <div className="videos-block-big">
+          <iframe
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/BzgFhxhEm-w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="videos-block-big">
+          <iframe
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/wwbqnQZ0Dgk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>

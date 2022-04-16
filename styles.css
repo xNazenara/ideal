@@ -159,25 +159,46 @@ button {
   top: 0;
   display: flex;
   z-index: 3;
+  pointer-events: none;
 }
 
 .menu-background {
   flex-grow: 1;
   background: white;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.menu-background-opened {
   opacity: 0.5;
+  pointer-events: auto;
 }
 
 .menu-content {
-  width: 300px;
+  width: 170px;
   height: 100%;
-  background: blue;
+  background: #0000b3;
+  padding: 40px;
+  position: absolute;
+  right: -250px;
+  top: 0;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.menu-content-opened {
+  right: 0;
 }
 
 .menu-close {
   margin-left: auto;
-  width: 22px;
-  margin-top: 20px;
-  margin-right: 10px;
+  width: 42px;
+  margin-top: -25px;
+  margin-right: -50px;
+  cursor: pointer;
+  height: 42px;
+  padding: 10px;
 }
 
 .menu-close-stripe {
@@ -185,8 +206,46 @@ button {
   width: 22px;
   background: white;
   transform: rotate(45deg);
+  position: absolute;
 }
 
 .menu-close-stripe:last-child {
   transform: rotate(135deg);
+}
+
+.menu-image {
+  height: 230px;
+}
+
+.menu-link {
+  font-size: 20px;
+  color: white;
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.container-title {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.videos-block-container {
+  display: flex;
+}
+
+.videos-block {
+  width: 46%;
+  margin: 2%;
+}
+
+.videos-block-big {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }

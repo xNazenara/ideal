@@ -19,13 +19,29 @@ export default function MyApp({ Component, pageProps }) {
         <div className="burger-icon-stripe"></div>
       </div>
       <div className="menu-container">
-        <div className="menu-background"></div>
-        <div className="menu-content">
-          <div className="menu-close">
+        <div
+          className={`menu-background ${
+            burgerOpened ? "menu-background-opened" : ""
+          }`}
+          onClick={(e) => {
+            setBurgerOpened(false);
+          }}
+        ></div>
+        <div
+          className={`menu-content ${
+            burgerOpened ? "menu-content-opened" : ""
+          }`}
+        >
+          <div
+            className="menu-close"
+            onClick={(e) => {
+              setBurgerOpened(false);
+            }}
+          >
             <div className="menu-close-stripe"></div>
             <div className="menu-close-stripe"></div>
           </div>
-          <img className="menu-image" src="/ideal_logo.webp" />
+          <img className="menu-image" src="/ideal_logo_2.png" />
           <div>
             <Link href="/about">
               <a className="menu-link">Страница профессионала</a>
