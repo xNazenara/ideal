@@ -102,11 +102,11 @@ const HomePage = () => {
           <div className="videos-block">
             <div>
               <iframe
-                width="560"
+                width="100%"
                 height="315"
                 src="https://www.youtube.com/embed/leD8BxVev9s"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
@@ -118,11 +118,11 @@ const HomePage = () => {
           <div className="videos-block">
             <div>
               <iframe
-                width="560"
+                width="100%"
                 height="315"
                 src="https://www.youtube.com/embed/akoj18-wT44"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
@@ -134,22 +134,22 @@ const HomePage = () => {
         </div>
         <div className="videos-block-big">
           <iframe
-            width="900"
+            width="100%"
             height="500"
             src="https://www.youtube.com/embed/BzgFhxhEm-w"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
         </div>
         <div className="videos-block-big">
           <iframe
-            width="900"
+            width="100%"
             height="500"
             src="https://www.youtube.com/embed/wwbqnQZ0Dgk"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>

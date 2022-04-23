@@ -11,7 +11,7 @@ button {
 
 .initial-container {
   width: 100%;
-  height: 500px;
+  height: 620px;
   background: url("/IMG_20201215_144357.jpg");
 
   background-size: cover;
@@ -29,7 +29,6 @@ button {
 .initial-logo {
   position: absolute;
   width: 150px;
-  height: 250px;
   top: 5px;
   right: 5px;
 }
@@ -58,12 +57,12 @@ button {
 
 .initial-title-button {
   position: absolute;
-  margin-top: 10%;
+  margin-top: 12%;
   left: 50%;
   transform: translate(-50%, 0);
   background: #0000b3;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   border-radius: 25px;
   padding: 15px;
@@ -73,7 +72,6 @@ button {
 
 .initial-360-logo {
   position: absolute;
-  height: 50px;
   width: 50px;
   left: 5px;
   bottom: 5px;
@@ -248,4 +246,53 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.cubes-block-tick {
+  width: 50px;
+}
+
+.cubes-container {
+}
+
+@media (max-width: 560px) {
+  .videos-block-container {
+    flex-direction: column;
+  }
+
+  .initial-title-text {
+    width: 290px;
+    font-size: 16px;
+    top: 39%;
+  }
+
+  .videos-block {
+    width: 96%;
+  }
+  .initial-logo {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    top: 5%;
+  }
+
+  .initial-container {
+    height: 100vh;
+    background-position: 52% 10%;
+  }
+
+  .initial-button {
+    bottom: 33%;
+  }
+  .initial-360-logo {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 19%;
+    width: 65px;
+  }
+
+  .initial-contacts {
+    width: 84%;
+    left: 8%;
+  }
 }
