@@ -37,9 +37,15 @@ button {
   position: absolute;
   right: 5px;
   bottom: 5px;
-  background: #ffffffbf;
-  border-radius: 25px;
-  padding: 5px;
+  background: #ffffff8c;
+  border-radius: 35px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.initial-contacts-image {
+  margin-right: 10px;
 }
 
 .initial-title-text {
@@ -53,6 +59,10 @@ button {
   transform: translate(-50%, 0);
   margin-bottom: 5px;
   width: 800px;
+}
+
+.initial-contacts-text {
+  color: #0000b3;
 }
 
 .initial-title-button {
@@ -79,6 +89,7 @@ button {
 
 .initial-contacts-block {
   display: flex;
+  padding: 10px;
 }
 
 .cubes-container {
@@ -88,6 +99,7 @@ button {
 }
 
 .cubes-subcontainer {
+  padding: 80px;
 }
 
 .cubes-row {
@@ -96,35 +108,105 @@ button {
 
 .cubes-left-block {
   position: relative;
+  width: 35%;
+  margin: 1%;
 }
 
 .cubes-block-image {
-  width: 350px;
-  height: 200px;
-  border-radius: 25px;
+  width: 100%;
+  border-radius: 45px;
+  box-shadow: 7px 7px 24px 1px #0000009c;
 }
 
 .cubes-left-block-blue {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 100%;
   left: -30px;
   top: -30px;
-  background: blue;
+  background: #8686ed;
   z-index: -1;
-  border-radius: 25px;
+  border-radius: 45px;
 }
 
 .cubes-right-block {
+  position: relative;
+  background: white;
+  width: 55%;
+  min-height: 100%;
+  box-shadow: 7px 7px 24px 1px #0000009c;
+  border-radius: 45px;
+  padding: 30px;
+  line-height: 26px;
+  left: 10px;
+}
+
+.cubes-bottom-block {
+  position: relative;
+  background: white;
+  margin-top: 20px;
+  width: 30%;
+  box-shadow: 7px 7px 24px 1px #0000009c;
+  border-radius: 45px;
+  padding: 30px;
+  line-height: 26px;
+  left: 18%;
+}
+
+.cubes-block-tick {
+  width: 20px;
+}
+
+.cubes-bottom-block-pink {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: -30px;
+  bottom: -30px;
+  background: #f18598;
+  z-index: -1;
+  border-radius: 45px;
 }
 
 .cubes-block-title {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .cubes-block-title:first-child {
   margin-bottom: 10px;
 }
 
+.cubes-block-text {
+  font-size: 17px;
+}
+
+.cubes-button {
+  background: #0000b3;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+  border: 0;
+  margin-top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 35px;
+}
+
+.cubes-right-block-green {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  right: -30px;
+  top: -30px;
+  background: #92f592;
+  z-index: -1;
+  border-radius: 45px;
+}
 .burger-icon {
   height: 48px;
   width: 48px;
@@ -226,6 +308,7 @@ button {
 .container-title {
   font-size: 30px;
   color: black;
+  margin-top: 40px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -246,10 +329,6 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-}
-
-.cubes-block-tick {
-  width: 50px;
 }
 
 .cubes-container {

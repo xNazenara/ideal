@@ -56,7 +56,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="cubes-container">
-        <div className="cubes-title">
+        <div className="container-title">
           СПОРТИВНО-ОЗДОРОВИТЕЛЬНЫЙ ЦЕНТР "ИДЕАЛ"
         </div>
         <div className="cubes-subcontainer">
@@ -81,17 +81,20 @@ const HomePage = () => {
             </div>
           </div>
           <div className="cubes-bottom-block">
-            <div className="cubes-block-title"></div>
+            <div className="cubes-block-title">ЧТО МЫ ВОССТАНАВЛИВАЕМ?</div>
             <div className="cubes-block-text">
               <img className="cubes-block-tick" src="tick.png" />
+              Позвоночник
             </div>
             <div className="cubes-block-text">
               <img className="cubes-block-tick" src="tick.png" />
+              Суставы
             </div>
             <div className="cubes-block-text">
               <img className="cubes-block-tick" src="tick.png" />
+              Мышечно-связочный аппарат
             </div>
-            <button className="cubes-button"></button>
+            <button className="cubes-button">Цены и акции</button>
             <div className="cubes-bottom-block-pink"></div>
           </div>
         </div>
@@ -108,7 +111,7 @@ const HomePage = () => {
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="videos-description">
@@ -124,7 +127,7 @@ const HomePage = () => {
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="videos-description">
@@ -140,7 +143,7 @@ const HomePage = () => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="videos-block-big">
@@ -151,7 +154,7 @@ const HomePage = () => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>
